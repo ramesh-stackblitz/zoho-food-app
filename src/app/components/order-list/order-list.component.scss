@@ -1,0 +1,151 @@
+.orderlist-container {
+    // background: #35df7a;
+
+    .order-cards {
+        padding: 1%;
+        box-sizing: border-box;
+    }
+}
+
+.hotel-cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 1%;
+    box-sizing: border-box;
+    .hotel {
+        display: flex;
+        flex-basis: 25%;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+}
+.empty-search {
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.search-container {
+    .menu-bar {
+        background: #f2ac20;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .tagline {
+            font-size: 27px;
+            padding-left: 1%;
+            text-transform: uppercase;
+        }
+        .filters {
+            padding: 1%;
+            app-search-bar {
+                margin-right: 35px;
+            }
+        }
+        
+    }
+}
+
+.order-container {
+    border: 1px solid #d4d5d9;
+    padding: 30px;
+    margin: 24px 24px 37px;
+
+    .order-details {
+        padding-bottom: 20px;
+        background-image: linear-gradient(90deg,#a9abb2 25%,hsla(0,0%,100%,0) 0);
+        background-position: bottom;
+        background-size: 4px 1px;
+        background-repeat: repeat-x;
+        display: -ms-flexbox;
+        display: flex;
+
+        .order-img {
+            background: rgba(40,44,63,.05);
+            width: 150px;
+            height: 100px;
+            cursor: pointer;
+
+            img {
+                width: 100%;
+            }
+        }
+        .order-desc {
+            flex: 1;
+            position: relative;
+            padding-left: 18px;
+
+            .order-title {
+                font-size: 17px;
+                font-weight: 500;
+                color: #3d4152;
+                display: block;
+                cursor: pointer;
+            }
+        }
+
+        .order-delivery {
+            float: right;
+            position: absolute;
+            top: 0;
+            right: 0;
+            padding-left: 18px;
+            font-size: 14px;
+            color: #686b78;
+        }
+    }
+
+    .paid-details {
+        padding-top: 20px;
+        position: relative;
+
+        .order-name {
+            font-size: 15px;
+            padding-right: 240px;
+            color: #282c3f;
+            line-height: 20px;
+        }
+
+        .reorder-container{
+            display: flex;
+
+            
+
+            
+        }
+        .paid-text {
+            float: right;
+            position: absolute;
+            top: 22px;
+            right: 0;
+            color: #535665;
+            font-size: 14px;
+
+            .rupees {
+                &:before {
+                    content: "\20B9";
+                }
+                
+            }
+        }
+    }
+
+    .success-circle {
+        background: #60b246;
+        color: #fff;
+        padding: 8px;
+        font-size: 10px;
+        margin-left: 10px;
+        border-radius: 50%;
+    }
+
+    .icon-tickSharp {
+       &::before {
+        content: "\2713";
+        font-size: 18px;
+       } 
+    }
+}
+
+

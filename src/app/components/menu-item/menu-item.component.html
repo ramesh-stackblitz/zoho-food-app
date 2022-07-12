@@ -1,0 +1,36 @@
+
+<div class="restaurantBack">
+    <h3 class="menu-header">Order Now</h3>
+    <a [routerLink]="['/hotels']"><img src="/assets/icons/restaurant-icon.png"/> </a>
+</div>
+<div class="menus-container">
+    
+    <div class="menu" *ngFor="let menu of hotel">
+        
+    <mat-card>
+        <mat-card-header>
+            <img mat-card-image width="100%" height="auto" src="{{menu.image}}" alt="{{menu.name}}" />
+           
+           
+          </mat-card-header>
+          <mat-card-content>
+            <mat-card-title  title="{{menu.name}}">{{menu.name}}</mat-card-title>
+            <mat-card-subtitle  title="{{menu.type}}">{{menu.type}}</mat-card-subtitle>
+            <mat-card-subtitle  title="{{menu.cuisine}}">{{menu.cuisine}}</mat-card-subtitle>
+            <div class="availblityCheck">
+                <p>Availability : </p>
+                <div *ngIf="menu.availabilityFlag"><img src="../../../assets/icons/available.png" alt="Available the Item"/></div>
+                <div *ngIf="!menu.availabilityFlag"><img src="../../../assets/icons/not-available.png" alt="Not Available the Item"/></div>
+            </div>
+            <span>{{'\u20B9'}} {{menu.price}}</span>
+          </mat-card-content>
+          <mat-card-actions>
+            
+            <button mat-raised-button color="warn" (click)="addToMyCart(menu)" [disabled]="!menu.availabilityFlag">
+                Add to Cart
+            </button>
+          </mat-card-actions>
+    </mat-card>
+    </div>
+    
+</div>

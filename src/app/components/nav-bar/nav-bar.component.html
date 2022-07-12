@@ -1,0 +1,20 @@
+<div class="navbar-container">
+    <div class="logo-section">
+        <img src="/assets/logo.png" class="logo" (click)="goToHome()">
+        <!-- <h2>ZOHO</h2> -->
+        <img src="https://www.zohowebstatic.com/sites/default/files/zoho-logo-zh-2x.png" style="width: 100px;"/>
+    </div>
+    <p></p>
+    <div class="user-profile" *ngIf="userName">
+        <p class="greetings">Hello, {{userName}}</p>
+       
+        <button mat-button [matMenuTriggerFor]="theMenu"> 
+            <ngx-avatar name="{{userName}}" textSizeRatio="2.5" bgColor="#f5f5f5" fgColor="#228d4c"></ngx-avatar>
+        </button>
+        <mat-menu #theMenu="matMenu">
+            <button mat-menu-item [routerLink]="['/orderlist']">My Order </button>
+            <button mat-menu-item (click)="logout()">Log Out</button>
+        </mat-menu>
+    </div>
+
+</div>

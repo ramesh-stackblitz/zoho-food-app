@@ -1,0 +1,550 @@
+[
+    
+    {
+        "id": "70001",
+        "name": "Hotel sangeetha",
+        "address": "56, Main Road, Adyar, Chennai",
+        "cuisines": "South Indian",
+        "rating": "4.3",
+        "reviews": "345",
+        "feature_image": "/assets/images/ab's.jpg",
+        "thumbnail_image": "https://www.absolutebarbecues.com/images/hyderabad-outlet1.jpg",
+        "menu": [
+            {
+                "id": 10001,
+                "name": "Dosa",
+                "type": "Veg",
+                "cuisine": "South Indian",
+                "image": "https://www.nehascookbook.com/wp-content/uploads/2022/02/Murmura-dosa-WS.jpg",
+                "availability": ["BREAKFAST"],
+                "price": 50
+            },
+            {
+                "id": 10002,
+                "name": "Chappathi",
+                "type": "Veg",
+                "cuisine": "North Indian",
+                "image": "https://i.ytimg.com/vi/MeSjdCPul3g/maxresdefault.jpg",
+                
+                "availability": ["LUNCH"],
+                "price": 40
+            },
+            {
+                "id": 10003,
+                "name": "Chicken",
+                "type": "Non-Veg",
+                "cuisine": "South Indian",
+                "image": "https://i.pinimg.com/600x315/74/aa/61/74aa619d9abe32a2b0f4d22ba03b79d4.jpg",
+                
+                "availability": ["BREAKFAST", "LUNCH", "DINNER"],
+                "price": 100
+            },
+            {
+                "id": 10004,
+                "name": "Pepper Chicken",
+                "type": "Non-Veg",
+                "cuisine": "South Indian",
+                "image": "https://i.pinimg.com/474x/71/bb/17/71bb176269497dfcfa55e416f5e709ea.jpg",
+                
+                "availability": ["LUNCH", "DINNER"],
+                "price": 150
+            },
+            {
+                "id": 10005,
+                "name": "Meals",
+                "type": "Veg",
+                "cuisine": "South Indian",
+                "image": "https://1.bp.blogspot.com/-1uLUJF6kbmw/XcZqWyToLNI/AAAAAAAAHrQ/IWIlXneNN9EoUSZHA5ExYN7zyIYSsuyNwCEwYBhgL/s400/2045FEEE-E1C5-4D2D-8B03-4EA7589127A7.jpeg",
+                
+                "availability": ["LUNCH"],
+                "price": 170
+            },
+            {
+                "id": 10006,
+                "name": "Non Veg Meals",
+                "type": "Non-Veg",
+                "cuisine": "Nouth Indian",
+                "image": "https://i.ytimg.com/vi/oF7POtym16w/maxresdefault.jpg",
+                
+                "availability": ["LUNCH"],
+                "price": 200
+            },
+            {
+                "id": 10008,
+                "name": "EGG BIRYANI",
+                "type": "Non-Veg",
+                "cuisine": "Nouth Indian",
+                "image": "https://2.bp.blogspot.com/-TP2CD9DCRGY/TXOtfbhDd5I/AAAAAAAAVYo/MUEfHYmBLRI/s400/IMG_1374.JPG",
+                
+                "availability": ["LUNCH", "DINNER"],
+                "price": 250
+            },
+            {
+                "id": 10009,
+                "name": "Special Mutton Biryani",
+                "type": "Non-Veg",
+                "cuisine": "South Indian",
+                "image": "https://i.ytimg.com/vi/6YZHfsu_aFA/mqdefault.jpg",
+                
+                "availability": ["LUNCH", "DINNER"],
+                "price": 300
+            }
+        ]
+    },
+    {
+        "id": "70002",
+        "name": "National Lodge",
+        "address": "112, Govindappa Naickan Street, Sowcarpet, Chennai",
+        "cuisines": "Andhra, South Indian",
+        "rating": "4.1",
+        "reviews": "505",
+        "feature_image": "https://b.zmtcdn.com/data/reviews_photos/081/6ed1609b97a184fcf604c126e724a081_1476178734.jpg?output-format=webp",
+        "thumbnail_image": "https://b.zmtcdn.com/data/reviews_photos/081/6ed1609b97a184fcf604c126e724a081_1476178734.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+        "menu": [
+            {
+                "id": 10001,
+                "name": "Dosa",
+                "type": "Veg",
+                "cuisine": "South Indian",
+                "image": "https://www.nehascookbook.com/wp-content/uploads/2022/02/Murmura-dosa-WS.jpg",
+                "availability": ["BREAKFAST"],
+                "price": 50
+            },
+            {
+                "id": 10002,
+                "name": "Chappathi",
+                "type": "Veg",
+                "cuisine": "North Indian",
+                "image": "https://i.ytimg.com/vi/MeSjdCPul3g/maxresdefault.jpg",
+                
+                "availability": ["LUNCH"],
+                "price": 40
+            },
+            {
+                "id": 10003,
+                "name": "Chicken",
+                "type": "Non-Veg",
+                "cuisine": "South Indian",
+                "image": "https://i.pinimg.com/600x315/74/aa/61/74aa619d9abe32a2b0f4d22ba03b79d4.jpg",
+                
+                "availability": ["BREAKFAST", "LUNCH", "DINNER"],
+                "price": 100
+            },
+            {
+                "id": 10004,
+                "name": "Pepper Chicken",
+                "type": "Non-Veg",
+                "cuisine": "South Indian",
+                "image": "https://i.pinimg.com/474x/71/bb/17/71bb176269497dfcfa55e416f5e709ea.jpg",
+                
+                "availability": ["LUNCH", "DINNER"],
+                "price": 150
+            },
+            {
+                "id": 10005,
+                "name": "Meals",
+                "type": "Veg",
+                "cuisine": "South Indian",
+                "image": "https://1.bp.blogspot.com/-1uLUJF6kbmw/XcZqWyToLNI/AAAAAAAAHrQ/IWIlXneNN9EoUSZHA5ExYN7zyIYSsuyNwCEwYBhgL/s400/2045FEEE-E1C5-4D2D-8B03-4EA7589127A7.jpeg",
+                
+                "availability": ["LUNCH"],
+                "price": 170
+            },
+            {
+                "id": 10006,
+                "name": "Non Veg Meals",
+                "type": "Non-Veg",
+                "cuisine": "Nouth Indian",
+                "image": "https://i.ytimg.com/vi/oF7POtym16w/maxresdefault.jpg",
+                
+                "availability": ["LUNCH"],
+                "price": 200
+            },
+            {
+                "id": 10008,
+                "name": "EGG BIRYANI",
+                "type": "Non-Veg",
+                "cuisine": "Nouth Indian",
+                "image": "https://2.bp.blogspot.com/-TP2CD9DCRGY/TXOtfbhDd5I/AAAAAAAAVYo/MUEfHYmBLRI/s400/IMG_1374.JPG",
+                
+                "availability": ["LUNCH", "DINNER"],
+                "price": 250
+            },
+            {
+                "id": 10009,
+                "name": "Special Mutton Biryani",
+                "type": "Non-Veg",
+                "cuisine": "South Indian",
+                "image": "https://i.ytimg.com/vi/6YZHfsu_aFA/mqdefault.jpg",
+                
+                "availability": ["LUNCH", "DINNER"],
+                "price": 300
+            }
+        ]
+    },
+    {
+        "id": "70003",
+        "name": "Absolute Barbecues",
+        "address": "No 48, CBS House, Opp to TCS, Velachery",
+        "cuisines": "Nouth Indian",
+        "rating": "4.5",
+        "reviews": "867",
+        "feature_image": "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/4/p/m/p4004-15429697625bf7d9a28e9f6.jpg?tr=tr:n-medium",
+        "thumbnail_image": "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/4/p/m/p4004-15429697625bf7d9a28e9f6.jpg?tr=tr:n-medium",
+        "menu": [
+            {
+                "id": 10001,
+                "name": "Dosa",
+                "type": "Veg",
+                "cuisine": "South Indian",
+                "image": "https://www.nehascookbook.com/wp-content/uploads/2022/02/Murmura-dosa-WS.jpg",
+                "availability": ["BREAKFAST"],
+                "price": 50
+            },
+            {
+                "id": 10002,
+                "name": "Chappathi",
+                "type": "Veg",
+                "cuisine": "North Indian",
+                "image": "https://i.ytimg.com/vi/MeSjdCPul3g/maxresdefault.jpg",
+                
+                "availability": ["LUNCH"],
+                "price": 40
+            },
+            {
+                "id": 10003,
+                "name": "Chicken",
+                "type": "Non-Veg",
+                "cuisine": "South Indian",
+                "image": "https://i.pinimg.com/600x315/74/aa/61/74aa619d9abe32a2b0f4d22ba03b79d4.jpg",
+                
+                "availability": ["BREAKFAST", "LUNCH", "DINNER"],
+                "price": 100
+            },
+            {
+                "id": 10004,
+                "name": "Pepper Chicken",
+                "type": "Non-Veg",
+                "cuisine": "South Indian",
+                "image": "https://i.pinimg.com/474x/71/bb/17/71bb176269497dfcfa55e416f5e709ea.jpg",
+                
+                "availability": ["LUNCH", "DINNER"],
+                "price": 150
+            },
+            {
+                "id": 10005,
+                "name": "Meals",
+                "type": "Veg",
+                "cuisine": "South Indian",
+                "image": "https://1.bp.blogspot.com/-1uLUJF6kbmw/XcZqWyToLNI/AAAAAAAAHrQ/IWIlXneNN9EoUSZHA5ExYN7zyIYSsuyNwCEwYBhgL/s400/2045FEEE-E1C5-4D2D-8B03-4EA7589127A7.jpeg",
+                
+                "availability": ["LUNCH"],
+                "price": 170
+            },
+            {
+                "id": 10006,
+                "name": "Non Veg Meals",
+                "type": "Non-Veg",
+                "cuisine": "Nouth Indian",
+                "image": "https://i.ytimg.com/vi/oF7POtym16w/maxresdefault.jpg",
+                
+                "availability": ["LUNCH"],
+                "price": 200
+            },
+            {
+                "id": 10008,
+                "name": "EGG BIRYANI",
+                "type": "Non-Veg",
+                "cuisine": "Nouth Indian",
+                "image": "https://2.bp.blogspot.com/-TP2CD9DCRGY/TXOtfbhDd5I/AAAAAAAAVYo/MUEfHYmBLRI/s400/IMG_1374.JPG",
+                
+                "availability": ["LUNCH", "DINNER"],
+                "price": 250
+            },
+            {
+                "id": 10009,
+                "name": "Special Mutton Biryani",
+                "type": "Non-Veg",
+                "cuisine": "South Indian",
+                "image": "https://i.ytimg.com/vi/6YZHfsu_aFA/mqdefault.jpg",
+                
+                "availability": ["LUNCH", "DINNER"],
+                "price": 300
+            }
+        ]
+    },
+    {
+        "id": "70004",
+        "name": "Barbeque Nation",
+        "address": "No 39, Bazullah Rd, near The Grand Sweets, T. Nagar",
+        "cuisines": "South Indian",
+        "rating": "4.5",
+        "reviews": "757",
+        "feature_image": "https://pbs.twimg.com/profile_images/1238344208907288577/ptYM0KCD_400x400.jpg",
+        "thumbnail_image": "https://pbs.twimg.com/profile_images/1238344208907288577/ptYM0KCD_400x400.jpg",
+        "menu": [
+            {
+                "id": 10001,
+                "name": "Dosa",
+                "type": "Veg",
+                "cuisine": "South Indian",
+                "image": "https://www.nehascookbook.com/wp-content/uploads/2022/02/Murmura-dosa-WS.jpg",
+                "availability": ["BREAKFAST"],
+                "price": 50
+            },
+            {
+                "id": 10002,
+                "name": "Chappathi",
+                "type": "Veg",
+                "cuisine": "North Indian",
+                "image": "https://i.ytimg.com/vi/MeSjdCPul3g/maxresdefault.jpg",
+                
+                "availability": ["LUNCH"],
+                "price": 40
+            },
+            {
+                "id": 10003,
+                "name": "Chicken",
+                "type": "Non-Veg",
+                "cuisine": "South Indian",
+                "image": "https://i.pinimg.com/600x315/74/aa/61/74aa619d9abe32a2b0f4d22ba03b79d4.jpg",
+                
+                "availability": ["BREAKFAST", "LUNCH", "DINNER"],
+                "price": 100
+            },
+            {
+                "id": 10004,
+                "name": "Pepper Chicken",
+                "type": "Non-Veg",
+                "cuisine": "South Indian",
+                "image": "https://i.pinimg.com/474x/71/bb/17/71bb176269497dfcfa55e416f5e709ea.jpg",
+                
+                "availability": ["LUNCH", "DINNER"],
+                "price": 150
+            },
+            {
+                "id": 10005,
+                "name": "Meals",
+                "type": "Veg",
+                "cuisine": "South Indian",
+                "image": "https://1.bp.blogspot.com/-1uLUJF6kbmw/XcZqWyToLNI/AAAAAAAAHrQ/IWIlXneNN9EoUSZHA5ExYN7zyIYSsuyNwCEwYBhgL/s400/2045FEEE-E1C5-4D2D-8B03-4EA7589127A7.jpeg",
+                
+                "availability": ["LUNCH"],
+                "price": 170
+            },
+            {
+                "id": 10006,
+                "name": "Non Veg Meals",
+                "type": "Non-Veg",
+                "cuisine": "Nouth Indian",
+                "image": "https://i.ytimg.com/vi/oF7POtym16w/maxresdefault.jpg",
+                
+                "availability": ["LUNCH"],
+                "price": 200
+            },
+            {
+                "id": 10008,
+                "name": "EGG BIRYANI",
+                "type": "Non-Veg",
+                "cuisine": "Nouth Indian",
+                "image": "https://2.bp.blogspot.com/-TP2CD9DCRGY/TXOtfbhDd5I/AAAAAAAAVYo/MUEfHYmBLRI/s400/IMG_1374.JPG",
+                
+                "availability": ["LUNCH", "DINNER"],
+                "price": 250
+            },
+            {
+                "id": 10009,
+                "name": "Special Mutton Biryani",
+                "type": "Non-Veg",
+                "cuisine": "South Indian",
+                "image": "https://i.ytimg.com/vi/6YZHfsu_aFA/mqdefault.jpg",
+                
+                "availability": ["LUNCH", "DINNER"],
+                "price": 300
+            }
+        ]
+    },
+    {
+        "id": "70005",
+        "name": "Dindigul Thalappakatti",
+        "address": "100 Feet Bypass Road, Velachery",
+        "cuisines": "South Indian",
+        "rating": "2.5",
+        "reviews": "543",
+        "feature_image": "https://kitchens-at.com/sk_admin//images/dishes/1589988594.jpeg",
+        "thumbnail_image": "https://kitchens-at.com/sk_admin//images/dishes/1589988594.jpeg",
+        "menu": [
+            {
+                "id": 10001,
+                "name": "Dosa",
+                "type": "Veg",
+                "cuisine": "South Indian",
+                "image": "https://www.nehascookbook.com/wp-content/uploads/2022/02/Murmura-dosa-WS.jpg",
+                "availability": ["BREAKFAST"],
+                "price": 50
+            },
+            {
+                "id": 10002,
+                "name": "Chappathi",
+                "type": "Veg",
+                "cuisine": "North Indian",
+                "image": "https://i.ytimg.com/vi/MeSjdCPul3g/maxresdefault.jpg",
+                
+                "availability": ["LUNCH"],
+                "price": 40
+            },
+            {
+                "id": 10003,
+                "name": "Chicken",
+                "type": "Non-Veg",
+                "cuisine": "South Indian",
+                "image": "https://i.pinimg.com/600x315/74/aa/61/74aa619d9abe32a2b0f4d22ba03b79d4.jpg",
+                
+                "availability": ["BREAKFAST", "LUNCH", "DINNER"],
+                "price": 100
+            },
+            {
+                "id": 10004,
+                "name": "Pepper Chicken",
+                "type": "Non-Veg",
+                "cuisine": "South Indian",
+                "image": "https://i.pinimg.com/474x/71/bb/17/71bb176269497dfcfa55e416f5e709ea.jpg",
+                
+                "availability": ["LUNCH", "DINNER"],
+                "price": 150
+            },
+            {
+                "id": 10005,
+                "name": "Meals",
+                "type": "Veg",
+                "cuisine": "South Indian",
+                "image": "https://1.bp.blogspot.com/-1uLUJF6kbmw/XcZqWyToLNI/AAAAAAAAHrQ/IWIlXneNN9EoUSZHA5ExYN7zyIYSsuyNwCEwYBhgL/s400/2045FEEE-E1C5-4D2D-8B03-4EA7589127A7.jpeg",
+                
+                "availability": ["LUNCH"],
+                "price": 170
+            },
+            {
+                "id": 10006,
+                "name": "Non Veg Meals",
+                "type": "Non-Veg",
+                "cuisine": "Nouth Indian",
+                "image": "https://i.ytimg.com/vi/oF7POtym16w/maxresdefault.jpg",
+                
+                "availability": ["LUNCH"],
+                "price": 200
+            },
+            {
+                "id": 10008,
+                "name": "EGG BIRYANI",
+                "type": "Non-Veg",
+                "cuisine": "Nouth Indian",
+                "image": "https://2.bp.blogspot.com/-TP2CD9DCRGY/TXOtfbhDd5I/AAAAAAAAVYo/MUEfHYmBLRI/s400/IMG_1374.JPG",
+                
+                "availability": ["LUNCH", "DINNER"],
+                "price": 250
+            },
+            {
+                "id": 10009,
+                "name": "Special Mutton Biryani",
+                "type": "Non-Veg",
+                "cuisine": "South Indian",
+                "image": "https://i.ytimg.com/vi/6YZHfsu_aFA/mqdefault.jpg",
+                
+                "availability": ["LUNCH", "DINNER"],
+                "price": 300
+            }
+        ]
+    },
+    {
+        "id": "70006",
+        "name": "Crescent Restaurant",
+        "address": " Raj Party Plot, Near Indira Gandhi Statue, Anand 388001 India",
+        "cuisines": "South Indian",
+        "rating": "2.5",
+        "reviews": "987",
+        "feature_image": "https://pbs.twimg.com/profile_images/992024847436910592/XiUtsa6V_400x400.jpg",
+        "thumbnail_image": "https://pbs.twimg.com/profile_images/992024847436910592/XiUtsa6V_400x400.jpg",
+        "menu": [
+            {
+                "id": 10001,
+                "name": "Dosa",
+                "type": "Veg",
+                "cuisine": "South Indian",
+                "image": "https://www.nehascookbook.com/wp-content/uploads/2022/02/Murmura-dosa-WS.jpg",
+                "availability": ["BREAKFAST"],
+                "price": 50
+            },
+            {
+                "id": 10002,
+                "name": "Chappathi",
+                "type": "Veg",
+                "cuisine": "North Indian",
+                "image": "https://i.ytimg.com/vi/MeSjdCPul3g/maxresdefault.jpg",
+                
+                "availability": ["LUNCH"],
+                "price": 40
+            },
+            {
+                "id": 10003,
+                "name": "Chicken",
+                "type": "Non-Veg",
+                "cuisine": "South Indian",
+                "image": "https://i.pinimg.com/600x315/74/aa/61/74aa619d9abe32a2b0f4d22ba03b79d4.jpg",
+                
+                "availability": ["BREAKFAST", "LUNCH", "DINNER"],
+                "price": 100
+            },
+            {
+                "id": 10004,
+                "name": "Pepper Chicken",
+                "type": "Non-Veg",
+                "cuisine": "South Indian",
+                "image": "https://i.pinimg.com/474x/71/bb/17/71bb176269497dfcfa55e416f5e709ea.jpg",
+                
+                "availability": ["LUNCH", "DINNER"],
+                "price": 150
+            },
+            {
+                "id": 10005,
+                "name": "Meals",
+                "type": "Veg",
+                "cuisine": "South Indian",
+                "image": "https://1.bp.blogspot.com/-1uLUJF6kbmw/XcZqWyToLNI/AAAAAAAAHrQ/IWIlXneNN9EoUSZHA5ExYN7zyIYSsuyNwCEwYBhgL/s400/2045FEEE-E1C5-4D2D-8B03-4EA7589127A7.jpeg",
+                
+                "availability": ["LUNCH"],
+                "price": 170
+            },
+            {
+                "id": 10006,
+                "name": "Non Veg Meals",
+                "type": "Non-Veg",
+                "cuisine": "Nouth Indian",
+                "image": "https://i.ytimg.com/vi/oF7POtym16w/maxresdefault.jpg",
+                
+                "availability": ["LUNCH"],
+                "price": 200
+            },
+            {
+                "id": 10008,
+                "name": "EGG BIRYANI",
+                "type": "Non-Veg",
+                "cuisine": "Nouth Indian",
+                "image": "https://2.bp.blogspot.com/-TP2CD9DCRGY/TXOtfbhDd5I/AAAAAAAAVYo/MUEfHYmBLRI/s400/IMG_1374.JPG",
+                
+                "availability": ["LUNCH", "DINNER"],
+                "price": 250
+            },
+            {
+                "id": 10009,
+                "name": "Special Mutton Biryani",
+                "type": "Non-Veg",
+                "cuisine": "South Indian",
+                "image": "https://i.ytimg.com/vi/6YZHfsu_aFA/mqdefault.jpg",
+                
+                "availability": ["LUNCH", "DINNER"],
+                "price": 300
+            }
+        ]
+    }
+    
+]

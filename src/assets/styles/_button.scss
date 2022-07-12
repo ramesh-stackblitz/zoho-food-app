@@ -1,0 +1,36 @@
+.btn-primary {
+    width: 120px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 20px;
+    line-height: 40px;
+    height: 40px;
+    color: #fc8019;
+    border: 1px solid #fc8019;
+    padding: 0 15px;
+    margin-top: 20px;
+    position: relative;
+
+    &.active {
+        background: #fc8019;
+        color: #fff;
+    }
+
+    &:hover {
+        position: relative;
+        box-shadow: 0 2px 8px #d4d5d9;
+    }
+
+    &:disabled, .mat-warn.mat-button-disabled {
+        color: #fff !important;
+        background-color: #6c757d !important;
+        border-color: #6c757d !important;
+    }
+
+    &.download {
+        margin-top: 0;
+    }
+}

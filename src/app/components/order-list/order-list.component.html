@@ -1,0 +1,67 @@
+<app-nav-bar [userName]="userName"></app-nav-bar>
+<div class="search-container">
+    <div class="menu-bar">
+        <h3 class="tagline">My Order List</h3>      
+        <div class="filters">
+            <app-search-bar (searchQueryEvent)="searchQuery($event)"></app-search-bar>
+            <app-dropdown [selectedValue]="selectedValue" [sortOptions]="sortOptions" (sortEvent)="sortHotels($event)"></app-dropdown>
+        </div>
+
+    </div>
+</div>
+<div class="orderlist-container">
+    <div class="order-cards">
+        <div class="restaurantBack">
+            <div class="sortRecords">
+                <h2>Past Orders: </h2>
+                <mat-form-field appearance="fill">
+                    <mat-label>Sort By</mat-label>
+                    <mat-select [(value)]="orderSelectedValue">
+                        <mat-option [value]="sort.value" *ngFor="let sort of sortOrderOptions"  (click)="sortOrderList(orderSelectedValue)">
+                        {{sort.viewValue}}
+                        </mat-option>
+                    </mat-select>
+                </mat-form-field>
+            </div>
+
+            
+            <a [routerLink]="['/hotels']"><img src="/assets/icons/restaurant-icon.png"/> </a>
+            <button class="btn-primary download" (click)="downloadPDF()">DOWNLOAD</button>
+        </div>
+        
+        <div class="hotel-cards" [class]="{'empty-search': !dataNotFound}" *ngIf="!dataNotFound">
+            <div class="empty-hotel">
+                <mat-spinner *ngIf="!orderlistConstant.length"></mat-spinner>
+                <h3 *ngIf="orderlistConstant.length">
+                    No Orders found!
+                </h3>
+            </div>
+        </div>
+        <div *ngFor="let item of orderList">
+            <div class="order-container">
+                <div class="order-details">
+                    <div class="order-img"><img [src]='"/assets/items/"+item.name+".png"' /></div>
+                    <div class="order-desc">
+                        <div class="order-title"><b>{{item.name}}</b></div>
+                        <div class="order-title">{{item.cuisine}}</div>
+                        <div class="order-title">{{item.type}}</div>
+                        <div class="order-delivery">
+                            <span>Order Placed on {{item.orderDate}}, {{item.orderTime}}<span class="success-circle icon-tickSharp"></span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="paid-details">
+                    <div class="order-name">
+                        {{item.name}} x {{item.quantity}}
+                    </div>
+                    <div class="reorder-container">
+                        <a class="btn-primary active">REORDER</a>
+                        <a class="btn-primary">DOWNLOAD</a>
+                    </div>
+                    <div class="paid-text">Paid: <span class="rupees"> {{item.price}} </span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<app-footer></app-footer>

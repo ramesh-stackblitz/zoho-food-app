@@ -1,0 +1,44 @@
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: url(https://www.zohocorp.com/images/zcorpbanner.jpg) no-repeat;
+    background-size: cover;
+    .logo {
+        margin-left: 1%;
+        width: 70px;
+        height: auto;
+    }
+    .logo-section {
+        display: flex;
+        color: white;
+        align-items: center;
+
+        h2 {
+            margin: 0;
+        }
+    }
+    .user-profile {
+        color: whitesmoke;
+        display: flex;
+        padding: 0 1%;
+        align-items: center;
+        .greetings {
+            font-size: 23px;
+            margin-right: 10px;
+        }
+    }
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px)  {
+    .greetings {
+        font-size: 17px !important;
+    }
+    .logo {
+        width: 40% !important;
+    }
+}

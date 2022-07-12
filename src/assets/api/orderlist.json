@@ -1,0 +1,63 @@
+[
+    
+    {
+        "id": 10011,
+        "name": "Dosa",
+        "orderDate": "07-08-2022",
+        "orderTime": "9:57PM",
+        "cuisine": "Nouth Indian",
+        "type": "Veg",
+        "price": 50,
+        "quantity": 2
+    },
+    {
+        "id": 10012,
+        "name": "Chappathi",
+        "orderDate": "06-22-2022",
+        "orderTime": "9:57PM",
+        "cuisine": "South Indian",
+        "type": "Veg",
+        "price": 50,
+        "quantity": 1
+    },
+    {
+        "id": 10013,
+        "name": "Chicken",
+        "orderDate": "05-15-2022",
+        "orderTime": "9:57PM",
+        "cuisine": "South Indian",
+        "type": "Non-Veg",
+        "price": 150,
+        "quantity": 1
+    },
+    {
+        "id": 10014,
+        "name": "Paper Dosa",
+        "orderDate": "06-24-2022",
+        "orderTime": "9:57PM",
+        "cuisine": "South Indian",
+        "type": "Veg",
+        "price": 50,
+        "quantity": 2
+    },
+    {
+        "id": 10015,
+        "name": "Egg Biryani",
+        "orderDate": "07-15-2022",
+        "orderTime": "9:57PM",
+        "cuisine": "South Indian",
+        "type": "Non-Veg",
+        "price": 150,
+        "quantity": 1
+    },
+    {
+        "id": 10016,
+        "name": "Special Mutton Biryani",
+        "orderDate": "05-24-2022",
+        "orderTime": "9:57PM",
+        "cuisine": "South Indian",
+        "type": "Non-Veg",
+        "price": 50,
+        "quantity": 2
+    }
+]
