@@ -184,7 +184,9 @@ export class HotelComponent implements OnInit, AfterViewInit {
         tempSessionValue = JSON.parse(sessionStorage.getItem('orderList'));
         if(tempSessionValue && tempSessionValue.length > 0) {
           this.cartItems.map((item) => {
-            tempSessionValue.push(item);
+            if(item && item.quantity && item.quantity > 0) {
+              tempSessionValue.push(item);
+            }
           })
         } else {
           tempSessionValue = this.cartItems
@@ -251,7 +253,7 @@ export class HotelComponent implements OnInit, AfterViewInit {
 
       var tempValue = this.hotel.map((item, index) => {
       item.availability.map((aval) => {
-        if(aval === "BREAKFAST" && (6 <= parseInt(time) && 12 >= parseInt(time)) || aval === "LUNCH" && (12 <= parseInt(time) && 16 >= parseInt(time)) || aval === "DINNER" && 17 <= parseInt(time)) {
+        if((this.hotel[index].availabilityFlag && !this.hotel[index].availabilityFlag) || aval === "BREAKFAST" && (6 <= parseInt(time) && 12 >= parseInt(time)) || aval === "LUNCH" && (12 <= parseInt(time) && 16 >= parseInt(time)) || aval === "DINNER" && 17 <= parseInt(time)) {
           this.hotel[index].availabilityFlag = true;
         } else {
           this.hotel[index].availabilityFlag = false;

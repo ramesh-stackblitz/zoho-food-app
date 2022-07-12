@@ -208,7 +208,7 @@
                 "cuisine": "North Indian",
                 "image": "https://i.ytimg.com/vi/MeSjdCPul3g/maxresdefault.jpg",
                 
-                "availability": ["LUNCH"],
+                "availability": ["LUNCH", "DINNER"],
                 "price": 40
             },
             {
