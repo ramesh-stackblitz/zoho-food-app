@@ -21,6 +21,7 @@ export class NavBarComponent implements OnInit {
   logout = () => {
     this._hotelService.userName = null;
     this.router.navigateByUrl("/hotels");
+    sessionStorage. clear();
   }
 
 }
